@@ -12,14 +12,15 @@ You’ll then use that to compute the values for the CSS styles below.
 1. Convert the base font-size listed here from pixels to ems:
 
       html {
-        font-size: 19px;
+        font-size: 1.188em;
+        
       }
 
 2.  Convert the base font-size listed here to ems, and set the line-height in ems accordingly:
 
       html {
-        font-size: 17px;
-        line-height: 24px;
+        font-size: 1.063em;
+        line-height: 1.500em;
       }
 
 3. Set the padding for this page to 12px on top and bottom, and 6px on left and right. Express in
@@ -27,8 +28,7 @@ ems:
 
       html {
         font-size: 1.125em;
-        padding:
-      }
+        padding: 0.750em 0.375em 0.750em 0.375em 
 
 4. Consider the following CSS. Assuming a browser with its base size at 1em = 16px, how big is h2,
 in pixels?
@@ -40,5 +40,5 @@ in pixels?
         font-size: 0.888em;
       }
       figure h2 {
-        font-size: 1.4375em;
+        font-size: 23px;
       }
